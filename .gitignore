@@ -1,0 +1,100 @@
+# =========================================================================
+# 1. 유니티 핵심 대형 임시/캐시 폴더 (절대 금지)
+# =========================================================================
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+.utmp/
+.vs/
+.gradle/
+ExportedObj/
+.consulo/
+
+# =========================================================================
+# 2. 패키지 매니저 관련 캐시 및 불필요한 파일 완벽 차단
+# =========================================================================
+# 유니티가 내부적으로 다운로드하는 패키지 캐시 폴더 전체 차단
+**/PackageCache/
+**/Packages/PackageCache/
+# 프로젝트 루트 외에 혹시 생성될지 모르는 임시 폴더들
+**/[Ll]ibrary/
+**/[Tt]emp/
+**/[Oo]bj/
+
+# =========================================================================
+# 3. 비주얼 스튜디오 / IDE 자동 생성 파일 및 로그
+# =========================================================================
+*.csproj
+*.unityproj
+*.sln
+*.slnx
+*.suo
+*.tmp
+*.user
+*.userprefs
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+*.log
+*.DotSettings.user
+
+# 깃 트래킹에 방해되는 자동 생성 메타 파일들
+*.pidb.meta
+*.pdb.meta
+*.mdb.meta
+sysinfo.txt
+mono_crash.*
+
+# =========================================================================
+# 4. 빌드 결과물 및 그래픽 툴 백업 파일 차단
+# =========================================================================
+*.apk
+*.aab
+*.unitypackage
+*.unitypackage.meta
+*.app
+*.blend1
+*.blend1.meta
+
+# =========================================================================
+# 5. 기타 유니티 자동 생성 에셋/캐시 폴더 방어
+# =========================================================================
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+/ServerData
+/[Aa]ssets/StreamingAssets/aa*
+/[Aa]ssets/AddressableAssetsData/link.xml*
+/[Aa]ssets/Addressables_Temp*
+/[Aa]ssets/AddressableAssetsData/*/*.bin*
+/[Aa]ssets/Unity.VisualScripting.Generated/
+/[Aa]ssets/[Ii]nit[Tt]est[Ss]cene*.unity*
+/[Aa]ssets/[Ss]ceneDependencyCache*
+crashlytics-build.properties
+InitTestScene*.unity*
+
+# =========================================================================
+# [권장 확인] 오직 내가 만든 Assets, Packages(설정), ProjectSettings만 허용됨
+# =========================================================================
+# 누겟 패키지 및 플러그인 대형 라이브러리 차단
+*.dll
+*.dll.meta
+**/Plugins/NuGet/
+.nuget/
+
+# 문제의 대형 샘플 및 플러그인 폴더 완벽 차단
+Assets/SamplesResources/
+Assets/Plugins/NuGet/
+.agents/
+
+# 확장자 기준 차단
+*.tgz
+*.FBX
+*.dll

@@ -1,0 +1,21 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/HW21_Canvas/HW21_Canvas.unity
+    guid: 3f216867887909049842e6a4564e69f2
+  m_configObjects:
+    Unity.XR.Oculus.Settings: {fileID: 11400000, guid: abc3b3f696cf82d42af2568b716f127e,
+      type: 2}
+    UnityEditor.XR.ARCore.ARCoreSettings: {fileID: 11400000, guid: 5cbbd5f8058ae834ab9e7d203ff70558,
+      type: 2}
+    UnityEditor.XR.ARKit.ARKitSettings: {fileID: 11400000, guid: 280916db2737fa04881ca8cc45980b80,
+      type: 2}
+    com.unity.xr.arfoundation.simulation_settings: {fileID: 11400000, guid: 757d6663a8fd1084cb90f7e96152e452,
+      type: 2}
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 2da4f0341e093494298d424ea28ae336,
+      type: 2}
