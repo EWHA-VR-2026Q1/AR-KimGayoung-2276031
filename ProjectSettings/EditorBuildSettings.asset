@@ -8,6 +8,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/HW21_Canvas/HW21_Canvas.unity
     guid: 3f216867887909049842e6a4564e69f2
+  - enabled: 1
+    path: Assets/HW23_DataSaveLoad/HW23_DataSaveLoad.unity
+    guid: 63d3c40d3c5243f3a2a07952e7069711
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: abc3b3f696cf82d42af2568b716f127e,
       type: 2}
